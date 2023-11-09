@@ -1,0 +1,8 @@
+Technical Event Generator Project Using PHP: ----
+
+Admin Username: -- 7654566973
+Admin Password: -- abc
+
+User username: -- 12204749
+password: -- 12204749
+

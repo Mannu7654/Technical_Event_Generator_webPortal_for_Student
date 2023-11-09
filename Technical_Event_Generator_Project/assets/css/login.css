@@ -1,0 +1,96 @@
+    body,
+    html {
+        margin: 0;
+        padding: 0;
+        height: 100%;
+        background:lightslategrey;
+    }
+    .user_card {
+        height: 400px;
+        width: 350px;
+        margin-top: auto;
+        margin-bottom: auto;
+        background:indianred;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        padding: 10px;
+        box-shadow: 0 4px 8px 0 chocolate, red, crimson;
+        -webkit-box-shadow: 0 4px 8px 0 aqua, 0 6px 20px 0 brown;
+        -moz-box-shadow: 0 4px 8px 0 lightseagreen, 0 6px 20px 0 brown;
+        border-radius: 5px;
+
+    }
+    .brand_logo_container {
+        position: absolute;
+        height: 170px;
+        width: 170px;
+        top: -75px;
+        border-radius: 50%;
+        background: brown;
+        padding: 10px;
+        text-align: center;
+    }
+    .brand_logo {
+        height: 150px;
+        width: 150px;
+        border-radius: 50%;
+        border: 2px solid brown;
+        background-color: darkseagreen;
+    }
+    .form_container {
+        margin-top: 100px;
+    }
+    .login_btn {
+        width: 100%;
+        background:green;
+        color: white;
+    }
+    .login_btn:focus {
+        box-shadow: none;
+        outline: 0px;
+    }
+    .login_container {
+        padding: 0 2rem;
+    }
+    .input-group-text {
+        background: brown;
+        color: white;
+        border: 0;
+        border-radius: 0.25rem 0 0 0.25rem;
+    }
+    .input_user,
+    .input_pass:focus {
+        box-shadow: none;
+        outline: 0px;
+    }
+    .custom-checkbox .custom-control-input:checked~.custom-control-label::before {
+        background-color: brown;
+    }
+
+    .text{
+        transform: translate(50%,-50%);
+        text-transform: uppercase;
+        font-family: verdana;
+        font-size: 4em;
+        font-weight: 700;
+        color: #eb6857;
+        text-shadow: 1px 1px 1px #919191,
+            1px 2px 1px #919191,
+            1px 3px 1px #919191,
+            1px 4px 1px #919191,
+            1px 5px 1px #919191,
+            1px 6px 1px #919191,
+            1px 7px 1px #919191,
+            1px 8px 1px #919191,
+            1px 9px 1px #919191,
+            1px 10px 1px #919191,
+        1px 18px 6px rgba(16,16,16,0.4),
+        1px 22px 10px rgba(16,16,16,0.2),
+        1px 25px 35px rgba(16,16,16,0.2),
+        1px 30px 60px rgba(16,16,16,0.4);
+       transform : 
+         rotate(-45deg);
+
+    }
